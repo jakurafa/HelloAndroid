@@ -26,7 +26,7 @@
         android:paddingLeft="16dp"
         android:paddingRight="8dp"
         android:text="Udacity"
-        android:textSize="52sp"
+        android:textSize="@dimen/background_text_size"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:textColor="@android:color/white"/>
@@ -39,7 +39,7 @@
         android:paddingLeft="4dp"
         android:paddingRight="8dp"
         android:text="is where"
-        android:textSize="52sp"
+        android:textSize="@dimen/background_text_size"
         android:layout_toRightOf="@id/Udacity"/>
 
     <TextView
@@ -49,7 +49,7 @@
         android:paddingLeft="16dp"
         android:paddingRight="8dp"
         android:text="lifelong learners come to learn the skills they need, to land the jobs they want, to build the lives they deserve."
-        android:textSize="52sp"
+        android:textSize="@dimen/background_text_size"
         android:layout_below="@id/Udacity"
         android:gravity="fill_vertical"/>
 
@@ -87,7 +87,7 @@
                 android:padding="4dp"
                 android:text="2465 Latham St"
                 android:textColor="@android:color/black"
-                android:textSize="16sp"/>
+                android:textSize="@dimen/address_text_size"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -95,7 +95,7 @@
                 android:padding="4dp"
                 android:text="Mountain View, CA 94043"
                 android:textColor="@android:color/black"
-                android:textSize="16sp" />
+                android:textSize="@dimen/address_text_size" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -103,7 +103,7 @@
                 android:padding="4dp"
                 android:text="650-555-5555"
                 android:textColor="@android:color/black"
-                android:textSize="16sp" />
+                android:textSize="@dimen/address_text_size" />
 
         </LinearLayout>
 
