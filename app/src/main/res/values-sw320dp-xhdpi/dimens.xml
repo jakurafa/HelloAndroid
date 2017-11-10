@@ -2,4 +2,5 @@
 <resources>
     <dimen name="background_text_size">44sp</dimen>
     <dimen name="address_text_size">14sp</dimen>
+    <dimen name="land_background_text_size">44sp</dimen>
 </resources>

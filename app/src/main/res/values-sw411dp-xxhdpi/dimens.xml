@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="background_text_size">52sp</dimen>
+    <dimen name="land_background_text_size">48sp</dimen>
     <dimen name="address_text_size">16sp</dimen>
+
 </resources>
