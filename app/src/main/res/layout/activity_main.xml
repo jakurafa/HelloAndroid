@@ -10,48 +10,55 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:contentDescription="@string/logo_description"
         android:scaleType="centerCrop"
-        android:src="@drawable/udacity"
-        android:contentDescription="Udacity logo"/>
+        android:src="@drawable/udacity" />
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/Udacity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingTop="8dp"
-        android:paddingLeft="16dp"
-        android:paddingRight="8dp"
-        android:text="Udacity"
-        android:textSize="@dimen/background_text_size"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:textColor="@android:color/white"/>
+        <TextView
+            android:id="@+id/Udacity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:paddingEnd="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="8dp"
+            android:paddingStart="16dp"
+            android:paddingTop="8dp"
+            android:text="@string/bt_1_part"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/background_text_size" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:alpha="0.2"
-        android:paddingTop="8dp"
-        android:paddingLeft="4dp"
-        android:paddingRight="8dp"
-        android:text="is where"
-        android:textSize="@dimen/background_text_size"
-        android:layout_toRightOf="@id/Udacity"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/Udacity"
+            android:layout_toRightOf="@id/Udacity"
+            android:alpha="0.2"
+            android:paddingEnd="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="8dp"
+            android:paddingStart="4dp"
+            android:paddingTop="8dp"
+            android:text="@string/bt_2_part"
+            android:textSize="@dimen/background_text_size" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:alpha="0.2"
-        android:paddingLeft="16dp"
-        android:paddingRight="8dp"
-        android:text="lifelong learners come to learn the skills they need, to land the jobs they want, to build the lives they deserve."
-        android:textSize="@dimen/background_text_size"
-        android:layout_below="@id/Udacity"
-        android:gravity="fill_vertical"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Udacity"
+            android:alpha="0.2"
+            android:gravity="fill_vertical"
+            android:paddingEnd="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="8dp"
+            android:paddingStart="16dp"
+            android:text="@string/bt_3_part"
+            android:textSize="@dimen/background_text_size" />
 
     </RelativeLayout>
 
@@ -64,14 +71,17 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
             android:layout_weight="1"
-            android:paddingTop="16dp"
-            android:paddingLeft="16dp"
             android:paddingBottom="4dp"
-            android:text="Udacity"
-            android:textSize="32sp"
+            android:paddingEnd="0dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="0dp"
+            android:paddingStart="16dp"
+            android:paddingTop="16dp"
+            android:text="@string/bt_1_part"
             android:textAllCaps="true"
-            android:layout_gravity="bottom"/>
+            android:textSize="32sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -85,15 +95,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="4dp"
-                android:text="2465 Latham St"
-                android:textColor="@android:color/black"
-                android:textSize="@dimen/address_text_size"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="4dp"
-                android:text="Mountain View, CA 94043"
+                android:text="@string/address_1_part"
                 android:textColor="@android:color/black"
                 android:textSize="@dimen/address_text_size" />
 
@@ -101,7 +103,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="4dp"
-                android:text="650-555-5555"
+                android:text="@string/address_2_part"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/address_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="@string/phone"
                 android:textColor="@android:color/black"
                 android:textSize="@dimen/address_text_size" />
 
