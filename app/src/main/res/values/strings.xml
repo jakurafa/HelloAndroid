@@ -1,7 +1,7 @@
 <resources>
 
     <string name="app_name">HelloAndroid</string>
-    <string name="bt_1_part">Udacity</string>
+    <string name="bussiness_name">Udacity</string>
     <string name="bt_2_part">is where</string>
     <string name="bt_3_part">lifelong learners come to learn the skills they need, to land the jobs they want, to build the lives they deserve.</string>
     <string name="logo_description">Udacity logo</string>
